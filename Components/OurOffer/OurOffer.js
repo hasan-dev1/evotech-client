@@ -31,10 +31,10 @@ const OurOffer = () => {
                 perPage: 1,
                 rewind: true,
                 padding: "15rem",
-                height: "40rem",
+                height: "35rem",
                 gap: "3rem",
                 breakpoints: {
-                  1200: {height:'40rem', perPage: 1, padding: "15rem", gap: "1rem" },
+                  1200: {height:'35rem', perPage: 1, padding: "15rem", gap: "1rem" },
                   767: { height: "800", perPage: 1, padding: 0, gap: "1rem" },
                   575: { height: "100%", perPage: 1, padding: 0, gap: "1rem" },
                 },

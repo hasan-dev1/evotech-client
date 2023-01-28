@@ -16,7 +16,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-12 mx-6 mt-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 mx-6 mt-4">
         <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
           <div className="text-center flex flex-col justify-center items-center ">
             <div
@@ -113,40 +113,6 @@ const Services = () => {
               <BiDonateHeart className="-rotate-45 shadow-2xl shadow-purple-500"></BiDonateHeart>
             </div>
             <h3 className="text-3xl my-3 ">Non-Profits</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
-            </p>
-          </div>
-        </div>
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center p-6">
-            <div
-              className="sidelink text-center flex flex-col justify-center items-center text-3xl"
-              style={{
-                boxShadow: `0px 0px 100px 20px purple, inset 0px 0px 40px 2px purple`,
-              }}
-            >
-              <BiMeteor className="-rotate-45 shadow-2xl shadow-purple-500"></BiMeteor>
-            </div>
-            <h3 className="text-3xl my-3 ">Government</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
-            </p>
-          </div>
-        </div>
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center p-6">
-            <div
-              className="sidelink text-center flex flex-col justify-center items-center text-3xl"
-              style={{
-                boxShadow: `0px 0px 100px 20px purple, inset 0px 0px 40px 2px purple`,
-              }}
-            >
-              <AiOutlineThunderbolt className="-rotate-45 shadow-2xl shadow-purple-500"></AiOutlineThunderbolt>
-            </div>
-            <h3 className="text-3xl my-3 ">High Risk Industries</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
               excepturi, nemo voluptas alias quibusdam minima?

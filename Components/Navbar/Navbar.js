@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <div className={`fixed w-full  z-30 ${navbg}`}>
+        <div className={`navbarfixt  z-30 ${navbg}`}>
           <div className="navbar lg:w-4/5 lg:mx-auto lg:mb-3">
             <div className="navbar-start w-3/4">
               <div className="dropdown">
