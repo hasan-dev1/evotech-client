@@ -139,7 +139,7 @@ a {
   background-image: url("https://images.pexels.com/photos/8728560/pexels-photo-8728560.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 .shapeimground{
   border-radius: 10% 25% 50% 10% / 0% 25% 55% 0% ;
@@ -152,11 +152,11 @@ a {
   position: absolute;
 }
 .splide__arrow--prev{
-  left: 46%;
+  left: 43%;
   top: 90%;
 }
 .splide__arrow--next{
-  left: 54%;
+  left: 51%;
   top: 90%;
 }
 .splidearrowtwo .splide__arrow--prev{

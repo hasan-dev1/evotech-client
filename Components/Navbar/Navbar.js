@@ -89,7 +89,7 @@ const Navbar = () => {
                     }`}
                     href={"/Contuct"}
                   >
-                    Contuct US
+                    Contact US
                   </Link>
                 </li>
                 <li className="mx-2">
@@ -141,7 +141,7 @@ const Navbar = () => {
                   }`}
                   href={"/Contuct"}
                 >
-                  Contuct US
+                  Contact US
                 </Link>
               </li>
               <li className="mx-2">

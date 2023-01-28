@@ -16,9 +16,9 @@ const Contuct = () => {
     }
     return (
       <div className="lg:w-4/5 lg:mx-auto py-20">
-        <div className="bg-slate-800 rounded-md p-8 lg:p-20  ">
-          <div className="flex lg:flex-row flex-col justify-center items-center ">
-            <div className="lg:w-[400px] w-full bg-success p-12 lg:h-[70vh] lg:rounded-l">
+        <div className="bg-slate-800 rounded-md p-8 lg:p-20 lg:mx-0 mx-6 ">
+          <div className="flex lg:flex-row md:flex-row flex-col justify-center items-center ">
+            <div className="lg:w-[400px] w-full p-12 min-h-[70vh] lg:rounded-l">
               <h3 className="text-3xl  ">Let&quot;s get in touch</h3>
               <p className="mt-3 mb-8">
                 We&quot;re Open for any suggetions or just to have a chat
@@ -52,51 +52,53 @@ const Contuct = () => {
                 </li>
               </ul>
             </div>
-            <div className="lg:flex-1 w-full text-black bg-slate-100 p-12 lg:h-[70vh] lg:rounded-r">
+            <div className="lg:flex-1 w-full  bg-slate-600 rounded-md py-12 px-3 min-h-[70vh]">
               <h3 className="text-3xl ">Send a message</h3>
               <div className="getintouchform">
-                <form className='pt-12' onSubmit={handlecontuctform}>
+                <form className="pt-12" onSubmit={handlecontuctform}>
                   <div className="lg:flex justify-between items-center">
                     <div className="w-full lg:mr-2">
-                      <p className='mb-[2px]'>Name</p>
+                      <p className="mb-[2px]">Name</p>
                       <input
-                      name='username'
+                        name="username"
                         type="text"
-                        placeholder='Name'
-                        className="input rounded-none w-full bg-white "
+                        placeholder="Name"
+                        className="input rounded-none w-full bg-slate-500 text-white"
                       />
                     </div>
                     <div className="w-full">
-                      <p className='mb-[2px]'>Email</p>
+                      <p className="mb-[2px]">Email</p>
                       <input
-                      name='email'
+                        name="email"
                         type="email"
-                        placeholder='Email'
-                        className="input rounded-none w-full bg-white "
+                        placeholder="Email"
+                        className="input rounded-none w-full bg-slate-500 text-white"
                       />
                     </div>
                   </div>
-                  <div className='pt-6'>
-                    <p className='mb-[2px]'>Subject</p>
+                  <div className="pt-6">
+                    <p className="mb-[2px]">Subject</p>
                     <input
-                    name='subject'
+                      name="subject"
                       type="text"
-                      placeholder='Subject'
-                      className="input rounded-none w-full bg-white "
+                      placeholder="Subject"
+                      className="input rounded-none w-full bg-slate-500 text-white"
                     />
                   </div>
-                  <div className='pt-6'>
-                    <p className='mb-[2px]'>Message</p>
+                  <div className="pt-6">
+                    <p className="mb-[2px]">Message</p>
                     <textarea
                       name="message"
                       id="textaraeheight"
-                      placeholder='Message'
-                      className="input pt-2 focus:outline-none rounded-none w-full bg-white "
+                      placeholder="Message"
+                      className="input pt-2 focus:outline-none rounded-none w-full text-white bg-slate-500 "
                       cols="30"
                       rows="20"
                     ></textarea>
                   </div>
-                  <button className='btn btn-success px-6 text-white mt-6'>Send Message</button>
+                  <button className="btn btn-success px-6 text-white mt-6">
+                    Send Message
+                  </button>
                 </form>
               </div>
             </div>

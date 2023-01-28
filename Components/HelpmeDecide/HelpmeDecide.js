@@ -4,8 +4,8 @@ const HelpmeDecide = () => {
     return (
       <div className="flex lg:flex-row flex-col justify-between items-center lg:w-4/5 lg:mx-auto py-[80px] mx-6">
         <div className="lg:w-1/2">
-          <h2 className="capitalize text-3xl lg:text-5xl font-bold lg:leading-[60px]">
-            what if your decision didn&quot;t have to feel like a total <br /> leap
+          <h2 className="capitalize text-3xl lg:text-5xl font-bold ">
+            what if your decision didn&apos;t have to feel like a total leap
             of faith?
           </h2>
           <p className="capitalize text-slate-400 mt-3 text-xl">

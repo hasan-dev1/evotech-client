@@ -10,15 +10,15 @@ const Services = () => {
         <h3 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
           Services
         </h3>
-        <p className="text-xl w-2/3 mx-auto text-slate-400">
+        <p className="text-xl w-2/3 mx-auto lg:w-full text-slate-400">
           we proudly work with.. Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Maiores, culpa?
         </p>
       </div>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 mx-6 mt-4">
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center ">
+        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+          <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
               style={{
@@ -34,8 +34,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center p-6">
+        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+          <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
               style={{
@@ -51,8 +51,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center p-6">
+        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+          <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
               style={{
@@ -68,8 +68,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center p-6">
+        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+          <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
               style={{
@@ -85,8 +85,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center p-6">
+        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+          <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
               style={{
@@ -102,8 +102,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-6 pb-6 pt-12 rounded-xl ">
-          <div className="text-center flex flex-col justify-center items-center p-6">
+        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+          <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
               style={{

@@ -14,27 +14,33 @@ const OurOffer = () => {
         <div className="lg:w-3/5 lg:mx-auto pb-12">
           <div>
             <h3 className="text-3xl font-bold">
-              You could be <br /> Our next success Story
+              Watch our previous work! <br /> You could be Our next success Story
             </h3>
             <p className="text-slate-400 capitalize">
               join our (growing) list of clients who have seen results.
             </p>
           </div>
         </div>
-        <div >
-          <div >
-            <Splide 
+        <div>
+          <div>
+            <Splide
               id="splide"
               hasTrack={false}
               aria-label="..."
               options={{
-                perPage: 1,
+                perPage: 2,
                 rewind: true,
                 padding: "15rem",
-                height: "35rem",
+                height: "30rem",
                 gap: "3rem",
                 breakpoints: {
-                  1200: {height:'35rem', perPage: 1, padding: "15rem", gap: "1rem" },
+                  1200: {
+                    height: "30rem",
+                    perPage: 1,
+                    padding: "15rem",
+                    gap: "1rem",
+                  },
+                  1024: { height: "800", perPage: 1, padding: 0, gap: "1rem" },
                   767: { height: "800", perPage: 1, padding: 0, gap: "1rem" },
                   575: { height: "100%", perPage: 1, padding: 0, gap: "1rem" },
                 },
@@ -42,7 +48,7 @@ const OurOffer = () => {
             >
               <SplideTrack>
                 <SplideSlide>
-                  <div>
+                  <div className="h-full">
                     <img
                       className="h-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -51,7 +57,7 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div>
+                  <div className="h-full">
                     <img
                       className="h-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -60,7 +66,7 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div>
+                  <div className="h-full">
                     <img
                       className="h-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -69,7 +75,7 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div>
+                  <div className="h-full">
                     <img
                       className="h-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -78,7 +84,7 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div>
+                  <div className="h-full">
                     <img
                       className="h-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
