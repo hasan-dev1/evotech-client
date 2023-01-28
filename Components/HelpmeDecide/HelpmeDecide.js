@@ -5,7 +5,7 @@ const HelpmeDecide = () => {
       <div className="flex lg:flex-row flex-col justify-between items-center lg:w-4/5 lg:mx-auto py-[80px] mx-6">
         <div className="lg:w-1/2">
           <h2 className="capitalize text-3xl lg:text-5xl font-bold lg:leading-[60px]">
-            what if your decision didn't have to feel like a total <br /> leap
+            what if your decision didn&quot;t have to feel like a total <br /> leap
             of faith?
           </h2>
           <p className="capitalize text-slate-400 mt-3 text-xl">
@@ -16,7 +16,7 @@ const HelpmeDecide = () => {
             customers as much as our code.
           </p>
           <p className="capitalize text-sm block text-slate-400">
-            (and we're perfectionist with our code.)
+            (and we&quot;re perfectionist with our code.)
           </p>
           <button className="mt-12 btn btn-sm btn-outline btn-primary border-2">
             Get startted
