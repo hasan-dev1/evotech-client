@@ -31,6 +31,7 @@ const OurOffer = () => {
               aria-label="..."
               options={{
                 perPage: 1,
+                start:1,
                 rewind: true,
                 padding: "25rem",
                 height: "30rem",
