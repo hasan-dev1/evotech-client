@@ -11,8 +11,9 @@ const Services = () => {
           Services
         </h3>
         <p className="text-xl w-2/3 mx-auto lg:w-full text-slate-400">
-          we proudly work with.. Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Maiores, culpa?
+          “A successful website does three things: It attracts the right kinds
+          of visitors. Guides them to the main services or product you offer.
+          Collect Contact details for future ongoing relation.”
         </p>
       </div>
 
@@ -29,8 +30,8 @@ const Services = () => {
             </div>
             <h3 className="text-3xl my-3 ">Small Bussiness</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
+              &quot;Small businesses are the backbone of the economy, embodying
+              the spirit of entrepreneurship and innovation.&quot;
             </p>
           </div>
         </div>
@@ -46,8 +47,9 @@ const Services = () => {
             </div>
             <h3 className="text-3xl my-3 ">E-Commerce</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
+              &quot;E-commerce has revolutionized the way we shop, providing
+              limitless access to goods and services, bridging the gap between
+              merchants and customers, and shaping the future of business.&quot;
             </p>
           </div>
         </div>
@@ -61,10 +63,11 @@ const Services = () => {
             >
               <FaGraduationCap className="-rotate-45 shadow-2xl shadow-purple-500"></FaGraduationCap>
             </div>
-            <h3 className="text-3xl my-3 ">Small Bussiness</h3>
+            <h3 className="text-3xl my-3 ">Education</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
+              &quot;Educational websites are the gateway to knowledge,
+              empowering learners with access to endless resources and
+              opportunities, and paving the way for a brighter future.&quot;
             </p>
           </div>
         </div>
@@ -80,8 +83,9 @@ const Services = () => {
             </div>
             <h3 className="text-3xl my-3 ">Startups</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
+              &quot;Startups are the birthplace of bold ideas and endless
+              possibilities, pushing boundaries and shaping the future with
+              their creativity, passion and drive.&quot;
             </p>
           </div>
         </div>
@@ -97,8 +101,9 @@ const Services = () => {
             </div>
             <h3 className="text-3xl my-3 ">Enterprise</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
+              &quot;Enterprise is the foundation of progress, embodying
+              innovation, determination, and the drive to succeed in the face of
+              challenges, fueling economic growth and shaping the future.&quot;
             </p>
           </div>
         </div>
@@ -114,8 +119,9 @@ const Services = () => {
             </div>
             <h3 className="text-3xl my-3 ">Non-Profits</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              excepturi, nemo voluptas alias quibusdam minima?
+              &quot;Non-profit websites are the voice of purpose, spreading
+              awareness and inspiring action for causes that matter, driving
+              social change and making a positive impact.&quot;
             </p>
           </div>
         </div>

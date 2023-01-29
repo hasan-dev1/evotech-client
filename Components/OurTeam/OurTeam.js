@@ -5,7 +5,7 @@ const OurTeam = () => {
   const slides = [
     {
       image:
-        "https://images.pexels.com/photos/3405456/pexels-photo-3405456.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://images.pexels.com/photos/14642638/pexels-photo-14642638.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
       name: "Mustaqim Rohit",
       quote:
         "A full stack developer is the jack of all trades in the tech world, mastering the frontend and backend to build seamless, dynamic, and functional web applications. They possess the unique ability to bring ideas to life from start to finish.",
@@ -30,7 +30,7 @@ const OurTeam = () => {
     },
     {
       image:
-        "https://images.pexels.com/photos/3405456/pexels-photo-3405456.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://images.pexels.com/photos/14642641/pexels-photo-14642641.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
       name: "Sayed Reyal",
       quote:
         "A full stack developer is the jack of all trades in the tech world, mastering the frontend and backend to build seamless, dynamic, and functional web applications. They possess the unique ability to bring ideas to life from start to finish.",

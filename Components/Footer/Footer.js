@@ -5,8 +5,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-      <div className="bg-slate-700">
-        <footer className="footer p-10 lg:w-4/5 lg:mx-auto text-base-content">
+      <div className="bg-slate-600">
+        <footer className="footer p-10 lg:w-4/5 lg:mx-auto ">
           <div>
             <img
               className="w-[80px] h-[100px]"
