@@ -1,116 +1,181 @@
-import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
-import React from "react";
-import { BiRightArrow } from "react-icons/bi";
+import React, { useState, useMemo, useEffect } from 'react'
+import ReactDOM from "react-dom/client";
 
 const OurTeam = () => {
-  return (
-    <div className="py-12 lg:w-4/5 lg:mx-auto">
-      <div className="w-2/3 lg:w-4/5 mx-auto lg:mx-auto text-center pb-[60px]">
-        <h3 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400  to-blue-500">
-          Meet Our teammate
-        </h3>
-        <p className="text-slate-400 mt-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          ducimus assumenda, tempora minus eum porro omnis deleniti
-          magnam quidem totam.
-        </p>
-      </div>
-      <div>
-        <Splide
-          hasTrack={false}
-          aria-label="..."
-          options={{
-            rewind: true,
-            gap: "1rem",
-          }}
-        >
-          <SplideTrack>
-            <SplideSlide>
-              <div className="flex lg:flex-row md:flex-row flex-col lg:mx-0 mx-6 justify-between  items-start">
-                <div className="lg:w-1/2 md:w-1/2 pr-2">
-                  <img
-                    className="w-full md:w-[80%] ml-auto h-[30rem] md:h-[25rem] lg:rounded  rounded-full"
-                    src="https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                    alt=""
-                  />
-                </div>
-                <div className="lg:w-1/2 md:w-1/2">
-                  <div className="lg:w-2/3 md:w-2/3 mx-auto lg:mt-0 md:mt-0 mt-6">
-                    <h3 className="text-2xl italic mb-12">
-                      &quot;Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Sed mollitia, enim omnis corporis placeat, animi
-                      modi voluptatibus nostrum rerum, praesentium ex reiciendis
-                      nemo tempore. Cum explicabo sit maiores sed ipsam dolor
-                      error nisi nemo, voluptatibus unde, aliquam ducimus
-                      dolores quam!&quot;
-                    </h3>
-                    <h4 className="text-xl font-bold">Rohit</h4>
-                    <p className="text-slate-400">FullStack Developer</p>
-                  </div>
-                </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="flex lg:flex-row flex-col lg:mx-0 mx-6 justify-between  items-start">
-                <div className="lg:w-1/2 pr-2">
-                  <img
-                    className="w-full md:w-[80%] ml-auto h-[30rem] md:h-[25rem] lg:rounded  rounded-full"
-                    src="https://images.pexels.com/photos/4709287/pexels-photo-4709287.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                    alt=""
-                  />
-                </div>
-                <div className="lg:w-1/2 ">
-                  <div className="lg:w-2/3 mx-auto lg:mt-0 md:mt-0 mt-6">
-                    <h3 className="text-2xl italic mb-12">
-                      &quot;Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Sed mollitia, enim omnis corporis placeat, animi
-                      modi voluptatibus nostrum rerum, praesentium ex reiciendis
-                      nemo tempore. Cum explicabo sit maiores sed ipsam dolor
-                      error nisi nemo, voluptatibus unde, aliquam ducimus
-                      dolores quam!&quot;
-                    </h3>
-                    <h4 className="text-xl font-bold">Reyal</h4>
-                    <p className="text-slate-400">FullStack Developer</p>
-                  </div>
-                </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="flex lg:flex-row flex-col lg:mx-0 mx-6 justify-between  items-start">
-                <div className="lg:w-1/2 pr-2">
-                  <img
-                    className="w-full md:w-[80%] ml-auto h-[30rem] md:h-[25rem] lg:rounded  rounded-full"
-                    src="https://images.pexels.com/photos/340152/pexels-photo-340152.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                    alt=""
-                  />
-                </div>
-                <div className="lg:w-1/2 ">
-                  <div className="lg:w-2/3 mx-auto lg:mt-0 md:mt-0 mt-6">
-                    <h3 className="text-2xl italic mb-12">
-                      &quot;Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Sed mollitia, enim omnis corporis placeat, animi
-                      modi voluptatibus nostrum rerum, praesentium ex reiciendis
-                      nemo tempore. Cum explicabo sit maiores sed ipsam dolor
-                      error nisi nemo, voluptatibus unde, aliquam ducimus
-                      dolores quam!&quot;
-                    </h3>
-                    <h4 className="text-xl font-bold">Hasan</h4>
-                    <p className="text-slate-400">FullStack Developer</p>
-                  </div>
-                </div>
-              </div>
-            </SplideSlide>
-          </SplideTrack>
+  const slides = [
+    {
+      image:
+        "https://images.pexels.com/photos/3405456/pexels-photo-3405456.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      name: "Mustaqim Rohit",
+      quote:
+        "Full Stack Developer at www.evotech.live",
+      stats: [
+        {
+          label: "Time",
+          value: "~4 years",
+        },
+        {
+          label: "",
+          value: "",
+        },
+        {
+          label: "Funds",
+          value: "$2,201",
+        },
+        {
+          label: "Outcome",
+          value: "Found housing, employment",
+        },
+      ],
+    },
+    {
+      image:
+        "https://images.pexels.com/photos/3405456/pexels-photo-3405456.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      name: "Sayed Reyal",
+      quote:
+        "Full Stack Developer at www.evotech.live",
+      stats: [
+        {
+          label: "Time",
+          value: "~4 years",
+        },
+        {
+          label: "",
+          value: "",
+        },
+        {
+          label: "Funds",
+          value: "$2,201",
+        },
+        {
+          label: "Outcome",
+          value: "Found housing, employment",
+        },
+      ],
+    },
+    {
+      image:
+        "https://images.pexels.com/photos/3405456/pexels-photo-3405456.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      name: "Md Hasan",
+      quote:
+        "Full Stack Developer at www.evotech.live",
+      stats: [
+        {
+          label: "Time",
+          value: "~4 years",
+        },
+        {
+          label: "",
+          value: "",
+        },
+        {
+          label: "Funds",
+          value: "$2,201",
+        },
+        {
+          label: "Outcome",
+          value: "Found housing, employment",
+        },
+      ],
+    },
+  ];
 
-          <div className="splide__arrows">
-            <button className="splide__arrow splide__arrow--prev">
-              <BiRightArrow></BiRightArrow>
-            </button>
-            <button className="splide__arrow splide__arrow--next">
-              <BiRightArrow></BiRightArrow>
-            </button>
+function Slide({ slide, previous }) {
+  return (
+    <div
+      className="slide"
+      style={{
+        "--stats": slide.stats.length,
+      }}
+      data-previous={previous || undefined}
+    >
+      <div className="slide-name">{slide.name}</div>
+      <img className="slide-image" src={slide.image} alt='' />
+      {slide.quote && <div className="slide-quote">{slide.quote}</div>}
+      {slide.stats.map((stat, i) => {
+        return (
+          <div
+            className="slide-stat"
+            key={i}
+            style={{
+              "--i": i,
+            }}
+          >
+            {/* <div className="stat-label">{stat.label}</div>
+            <div className="stat-value">{stat.value}</div> */}
           </div>
-        </Splide>
+        );
+      })}
+    </div>
+  );
+}
+
+function ScondApp() {
+  const [slideIndex, setSlideIndex] = useState(0);
+  const [prevSlideIndex, setPrevSlideIndex] = useState(null);
+  const activeSlide = useMemo(() => slides[slideIndex], [slideIndex]);
+  const prevSlide = useMemo(() => slides[prevSlideIndex], [prevSlideIndex]);
+
+  function nextSlide() {
+    setPrevSlideIndex(slideIndex);
+    setSlideIndex((slideIndex + 1) % slides.length);
+  }
+  function prevSlideone() {
+    setPrevSlideIndex(slideIndex);
+    setSlideIndex(
+      (slideIndex > 0 ? slideIndex - 1 : slides.length - 1) % slides.length
+    );
+  }
+
+  return (
+    <div className="app">
+      <svg
+        viewBox="0 0 100 100"
+        className="dashes"
+        fill="none"
+        stroke="var(--color-purple)"
+        strokeDasharray="2 4 4 3 2 3 8 2 3 5"
+      >
+        <circle r="45" cx="50" cy="50" />
+      </svg>
+      <Slide slide={activeSlide} key={slideIndex} />
+      {prevSlide && (
+        <Slide slide={prevSlide} key={prevSlideIndex + "prev"} previous />
+      )}
+      <button
+        className="button -next"
+        onClick={() => {
+          nextSlide();
+        }}
+      >
+        Next
+      </button>
+      <button
+        className="button -prev"
+        onClick={() => {
+          prevSlideone();
+        }}
+      >
+        prev
+      </button>
+    </div>
+  );
+}
+
+useEffect(()=>{
+  const root = ReactDOM.createRoot(document.getElementById("scondroot"));
+  root.render(
+    <React.StrictMode>
+      <ScondApp />
+    </React.StrictMode>
+  );
+},[])
+  return (
+    <div className="starthtml">
+      <div className="scondhtml">
+        <div className="scondbody">
+          <div id="scondroot">sd</div>
+        </div>
       </div>
     </div>
   );

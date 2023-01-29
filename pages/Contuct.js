@@ -17,10 +17,10 @@ const Contuct = () => {
     return (
       <div className="lg:w-4/5 lg:mx-auto py-20">
         <div className="bg-slate-800 rounded-md p-8 lg:p-20 lg:mx-0 mx-6 ">
-          <div className="flex lg:flex-row md:flex-row flex-col justify-center items-center ">
-            <div className="lg:w-[400px] w-full p-12 min-h-[70vh] lg:rounded-l">
-              <h3 className="text-3xl  ">Let&quot;s get in touch</h3>
-              <p className="mt-3 mb-8">
+          <div className="flex lg:flex-row md:flex-row flex-col justify-center items-start ">
+            <div className="lg:w-[400px] w-full lg:rounded-l pr-6">
+              <h3 className="text-3xl pb-6 ">Let&quot;s get in touch</h3>
+              <p className="lg:pt-12 md:pt-12">
                 We&quot;re Open for any suggetions or just to have a chat
               </p>
               <ul>
@@ -28,7 +28,7 @@ const Contuct = () => {
                   <div>
                     <FaMapMarkerAlt className="w-10 h-10 p-2 border m-2 rounded-full"></FaMapMarkerAlt>
                   </div>
-                  <p>
+                  <p className='pt-2'>
                     Address: 114 DIT Road, Malibagh, Dhaka, 1217, Bangladesh
                   </p>
                 </li>
@@ -52,29 +52,27 @@ const Contuct = () => {
                 </li>
               </ul>
             </div>
-            <div className="lg:flex-1 w-full  bg-slate-600 rounded-md py-12 px-3 min-h-[70vh]">
-              <h3 className="text-3xl ">Send a message</h3>
+            <div className=" lg:w-2/4 w-full   rounded-md px-3">
+              <h3 className="text-3xl lg:pt-0 md:pt-0 pt-12 ">Send a message</h3>
               <div className="getintouchform">
-                <form className="pt-12" onSubmit={handlecontuctform}>
-                  <div className="lg:flex justify-between items-center">
-                    <div className="w-full lg:mr-2">
-                      <p className="mb-[2px]">Name</p>
-                      <input
-                        name="username"
-                        type="text"
-                        placeholder="Name"
-                        className="input rounded-none w-full bg-slate-500 text-white"
-                      />
-                    </div>
-                    <div className="w-full">
-                      <p className="mb-[2px]">Email</p>
-                      <input
-                        name="email"
-                        type="email"
-                        placeholder="Email"
-                        className="input rounded-none w-full bg-slate-500 text-white"
-                      />
-                    </div>
+                <form className="lg:pt-12 md:pt-12" onSubmit={handlecontuctform}>
+                  <div className="pt-6">
+                    <p className="mb-[2px]">Name</p>
+                    <input
+                      name="username"
+                      type="text"
+                      placeholder="Name"
+                      className="input rounded-none w-full bg-slate-500 text-white"
+                    />
+                  </div>
+                  <div className="pt-6">
+                    <p className="mb-[2px]">Email</p>
+                    <input
+                      name="email"
+                      type="email"
+                      placeholder="Email"
+                      className="input rounded-none w-full bg-slate-500 text-white"
+                    />
                   </div>
                   <div className="pt-6">
                     <p className="mb-[2px]">Subject</p>
