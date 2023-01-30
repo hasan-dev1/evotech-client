@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 
 const HelpmeDecide = () => {
   return (
-    <div className=" py-[80px] lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto px-6 w-full flex lg:flex-row md:flex-row flex-col justify-between items-center">
+    <div className=" py-[80px] lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto px-6 w-full flex lg:flex-row md:flex-row flex-col justify-between items-center mt-12">
       <div
         data-aos="fade-up"
         data-aos-offset="200"
