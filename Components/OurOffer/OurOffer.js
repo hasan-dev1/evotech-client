@@ -12,12 +12,19 @@ const OurOffer = () => {
     return (
       <div className="lg:mx-0 mx-6 mb-[80px]">
         <div className="lg:w-1/2 text-center lg:mx-auto pb-12">
-          <div>
-            <h3 className="capitalize lg:text-start md:text-start text-center lg:font-extrabold font-bold text-transparent text-3xl lg:text-4xl min-[1285px]:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 via-sky-500 to-sky-500 ">
-              Watch our previous work! <br /> You could be Our next success
-              Story
+          <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            <h3 className="capitalize md:w-1/2 md:mx-auto lg:mx-0 lg:w-full text-center lg:font-extrabold font-bold text-transparent text-3xl lg:text-4xl min-[1285px]:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 via-sky-500 to-sky-500 ">
+              Watch our previous work!
             </h3>
-            <p className="text-slate-400 capitalize">
+            <p className="text-slate-400 pt-3 capitalize">
               join our (growing) list of clients who have seen results.
             </p>
           </div>
@@ -31,7 +38,7 @@ const OurOffer = () => {
               aria-label="..."
               options={{
                 perPage: 1,
-                start:1,
+                start: 1,
                 rewind: true,
                 padding: "25rem",
                 height: "30rem",
@@ -58,7 +65,16 @@ const OurOffer = () => {
             >
               <SplideTrack>
                 <SplideSlide>
-                  <div className="h-full w-full">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    className="h-full w-full"
+                  >
                     <img
                       className="h-full w-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -67,7 +83,16 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="h-full w-full">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    className="h-full w-full"
+                  >
                     <img
                       className="h-full w-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -76,7 +101,16 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="h-full w-full">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    className="h-full w-full"
+                  >
                     <img
                       className="h-full w-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -85,7 +119,16 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="h-full w-full">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    className="h-full w-full"
+                  >
                     <img
                       className="h-full w-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -94,7 +137,16 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="h-full w-full">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    className="h-full w-full"
+                  >
                     <img
                       className="h-full w-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -103,7 +155,16 @@ const OurOffer = () => {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="h-full w-full">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    className="h-full w-full"
+                  >
                     <img
                       className="h-full w-full rounded-lg"
                       src="https://images.pexels.com/photos/5839461/pexels-photo-5839461.jpeg?auto=compress&cs=tinysrgb&w=1600"

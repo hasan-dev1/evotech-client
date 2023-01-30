@@ -1,33 +1,95 @@
 import React from 'react';
+import { FaCheck } from 'react-icons/fa';
 
 const HelpmeDecide = () => {
+  
     return (
-      <div className="flex lg:flex-row flex-col justify-between items-center lg:w-4/5 lg:mx-auto py-[80px] mx-6">
-        <div className="lg:w-1/2">
-          <h2 className="capitalize text-start lg:font-extrabold font-bold text-transparent text-3xl lg:text-4xl min-[1285px]:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 via-sky-500 to-sky-500  ">
-            what if your decision didn&apos;t have to feel like a total leap of
-            faith?
-          </h2>
-          <p className="capitalize text-slate-400 mt-3 text-xl">
-            work with the team that cares about out
+      <div className=" py-[80px] lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto px-6 w-full flex lg:flex-row md:flex-row flex-col justify-between items-center">
+        <div
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="lg:w-1/2 md:w-1/2 w-full text-slate-300 lg:pr-16"
+        >
+          <h3 className="text-xl border-b-2 border-purple-400 inline-block">
+            Evotech- Welcome to evotech
+          </h3>
+          <h3
+            
+            className="text-4xl my-5"
+          >
+            Evotech Is Your Trusted <br className="lg:flex hidden" /> Source In
+            IT Services And Support
+          </h3>
+          <p
+           
+            className="mb-5"
+          >
+            Evotech is a privately owned IT Support and IT Services business
+            formed in 2022.Today we&apos;re proud to boast a strong team of IT
+            engineers who thrive on rolling up their sleeves and solving your IT
+            problems and meeting your business needs.
           </p>
-          <p className="capitalize text-slate-400 my-2 text-xl">
-            {" "}
-            customers as much as our code.
-          </p>
-          <p className="capitalize text-sm block text-slate-400">
-            (and we&quot;re perfectionist with our code.)
-          </p>
-          <button className="mt-12 btn btn-sm btn-outline btn-primary border-2">
-            Get startted
-          </button>
+
+          <ul
+           
+          >
+            <li className="flex justify-start items-start">
+              {" "}
+              <FaCheck className="mr-2 text-green-400"></FaCheck>
+              <span>We are committed to providing quality IT Services</span>
+            </li>
+            <li className="flex justify-start items-start">
+              {" "}
+              <FaCheck className="mr-2 text-green-400"></FaCheck>
+              <span>
+                Our benefits are endless for local IT Companies & Startups
+              </span>
+            </li>
+            <li className="flex justify-start items-start">
+              {" "}
+              <FaCheck className="mr-2 text-green-400"></FaCheck>
+              <span>
+                Really know the true needs and expectations of customers
+              </span>
+            </li>
+            <li className="flex justify-start items-start">
+              {" "}
+              <FaCheck className="mr-2 text-green-400"></FaCheck>
+              <span>Talented & experienced management solutions for IT</span>
+            </li>
+            <li className="flex justify-start items-start">
+              {" "}
+              <FaCheck className="mr-2 text-green-400"></FaCheck>
+              <span>
+                Processes of achieving the excellence and continue improvements
+              </span>
+            </li>
+          </ul>
         </div>
-        <div className="lg:w-1/2 flex justify-center lg:ml-24 items-center">
-          <img
-            className="w-3/2 h-2/3"
-            src="https://i.ibb.co/k0gS3xf/logo-1-removebg-preview.png"
-            alt=""
-          />
+        <div
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="lg:w-1/2 md:w-1/2 w-full  lg:mt-0 md:mt-0 mt-12"
+        >
+          <iframe
+            className="w-[100%] rounded mr-4"
+            height={400}
+            src="https://www.youtube.com/embed/EIIkxSvNU_s"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     );

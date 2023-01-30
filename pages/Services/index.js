@@ -5,12 +5,21 @@ import { AiOutlineThunderbolt } from "react-icons/ai";
 
 const Services = () => {
   return (
-    <div className="lg:py-[80px] lg:w-4/5 lg:mx-auto py-16">
-      <div className="lg:w-1/2 lg:mx-auto text-center mb-12 ">
-        <h3 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
+    <div className="lg:py-[80px] lg:w-4/5 lg:mx-auto py-16 ">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        className="lg:w-2/3 lg:mx-auto text-center mb-12 "
+      >
+        <h3 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-300 to-blue-400">
           Services
         </h3>
-        <p className="text-xl w-2/3 mx-auto lg:w-full text-slate-400">
+        <p className="text-xl md:w-2/3 mx-auto px-2 w-full lg:mx-auto lg:w-full text-slate-300">
           “A successful website does three things: It attracts the right kinds
           of visitors. Guides them to the main services or product you offer.
           Collect Contact details for future ongoing relation.”
@@ -18,7 +27,16 @@ const Services = () => {
       </div>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 mx-6 mt-4">
-        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+        <div
+          data-aos="zoom-out-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl "
+        >
           <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
@@ -35,7 +53,16 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+        <div
+          data-aos="zoom-out-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl "
+        >
           <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
@@ -53,7 +80,16 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+        <div
+          data-aos="zoom-out-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl "
+        >
           <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
@@ -71,7 +107,16 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+        <div
+          data-aos="zoom-out-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl "
+        >
           <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
@@ -89,7 +134,16 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+        <div
+          data-aos="zoom-out-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl "
+        >
           <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"
@@ -107,7 +161,16 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl ">
+        <div
+          data-aos="zoom-out-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="bg-slate-900 px-3 pb-6 pt-12 rounded-xl "
+        >
           <div className="text-center flex flex-col justify-center items-center py-6">
             <div
               className="sidelink text-center flex flex-col justify-center items-center text-3xl"

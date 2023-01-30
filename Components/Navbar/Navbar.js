@@ -106,7 +106,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <Link href={"/"} className="text-4xl font-bold">
+            <Link href={"/"} className="text-4xl font-bold text-white">
               Evotech
             </Link>
             <ul className=" px-1 ml-12 font-bold lg:flex  hidden">
@@ -171,7 +171,7 @@ const Navbar = () => {
         <button
           onClick={topFunction}
           id="backtotop"
-          className={`fixed lg:right-12 right-6 lg:bottom-12 bottom-6 btn btn-primary rounded-full ${
+          className={`fixed z-50 lg:right-12 right-6 lg:bottom-12 bottom-6 btn btn-primary rounded-full ${
             showButton
               ? "mb-0 ease-in duration-300"
               : "-mb-48 ease-out duration-300"

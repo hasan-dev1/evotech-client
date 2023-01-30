@@ -15,7 +15,16 @@ const Contuct = () => {
         form.reset()
     }
     return (
-      <div className="lg:w-4/5 lg:mx-auto py-20">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        className="lg:w-4/5 lg:mx-auto py-20 "
+      >
         <div className="bg-slate-800 rounded-md p-8 lg:p-20 lg:mx-0 mx-6 ">
           <div className="flex lg:flex-row md:flex-row flex-col justify-center items-start ">
             <div className="lg:w-[400px] w-full lg:rounded-l pr-6">
@@ -28,7 +37,7 @@ const Contuct = () => {
                   <div>
                     <FaMapMarkerAlt className="w-10 h-10 p-2 border m-2 rounded-full"></FaMapMarkerAlt>
                   </div>
-                  <p className='pt-2'>
+                  <p className="pt-2">
                     Address: 114 DIT Road, Malibagh, Dhaka, 1217, Bangladesh
                   </p>
                 </li>
@@ -53,9 +62,14 @@ const Contuct = () => {
               </ul>
             </div>
             <div className=" lg:w-2/4 w-full   rounded-md px-3">
-              <h3 className="text-3xl lg:pt-0 md:pt-0 pt-12 ">Send a message</h3>
+              <h3 className="text-3xl lg:pt-0 md:pt-0 pt-12 ">
+                Send a message
+              </h3>
               <div className="getintouchform">
-                <form className="lg:pt-12 md:pt-12" onSubmit={handlecontuctform}>
+                <form
+                  className="lg:pt-12 md:pt-12"
+                  onSubmit={handlecontuctform}
+                >
                   <div className="pt-6">
                     <p className="mb-[2px]">Name</p>
                     <input

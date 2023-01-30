@@ -6,7 +6,7 @@ import React from 'react';
 const Footer = () => {
     return (
       <div className="bg-slate-600">
-        <footer className="footer p-10 lg:w-4/5 lg:mx-auto ">
+        <footer className="footer p-10 lg:w-4/5 lg:mx-auto min-h-[30vh]">
           <div>
             <img
               className="w-[80px] h-[100px]"

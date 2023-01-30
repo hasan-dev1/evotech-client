@@ -171,12 +171,20 @@ const OurTeam = () => {
     );
   }, []);
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+    >
       <div className="lg:w-1/2 md:w-2/3 md:mx-auto w-full lg:mx-auto  px-12 text-center my-6">
         <h3 className="capitalize text-center lg:font-extrabold font-bold text-transparent text-3xl lg:text-4xl min-[1285px]:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 via-sky-500 to-sky-500 ">
           Meet Our Team
         </h3>
-        <p >
+        <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
           nemo ex excepturi, possimus, expedita qui deserunt totam dolor dolores
           soluta

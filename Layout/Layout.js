@@ -1,7 +1,7 @@
 import Footer from "@/Components/Footer/Footer";
 import Navbar from "@/Components/Navbar/Navbar";
 import "@splidejs/react-splide/css";
-import React from "react";
+import React, { useEffect } from "react";
 
 const Layout = ({ children }) => {
   return (
