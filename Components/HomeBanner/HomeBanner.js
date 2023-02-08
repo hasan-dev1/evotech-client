@@ -10,27 +10,23 @@ const HomeBanner = () => {
           <div
             className="lg:w-1/2 lg:px-4 lg:mx-0 md:w-1/2 md:px-4 md:mx-0 mx-6 lg:text-start md:text-start text-center"
             data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
           >
-            <h3 className="capitalize lg:text-start md:text-start text-center lg:font-extrabold font-bold text-transparent text-3xl lg:text-4xl min-[1285px]:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 via-sky-500 to-sky-500 ">
-              Building Strong Websites for Growing Businesses
+            <h3 className="capitalize lg:text-start md:text-start text-center lg:font-extrabold font-bold text-transparent text-[24px] lg:text-4xl min-[1285px]:text-5xl bg-clip-text bg-gradient-to-r from-purple-400 via-sky-500 to-sky-500 ">
+              Bringing Your Online <br className="min-[641px]:hidden block" />{" "}
+              Vision to Life
             </h3>
             <div className="my-6 text-slate-400  ">
-              &quot;Experienced web development company offering custom
-              solutions for businesses. Specializing in responsive design,
-              e-commerce, and web application development. Delivering
-              high-quality, scalable and user-friendly websites. Partner with us
-              for your next project.&quot;
+              &quot;Unleash Your Online Potential with Evotech Custom Solutions,{" "}
+              <br className="lg:flex hidden" />
+              Expert Team, Guaranteed Results..&quot;
             </div>
-            <button className="btn btn-sm btn-primary flex justify-start items-center capitalize">
-              <FaPlayCircle className="mr-2"></FaPlayCircle>{" "}
-              <span>Watch the Demo</span>
-            </button>
+            <div>
+              <a className="bg-primary p-2 rounded-md" href="#contact">
+                Get Started
+              </a>
+            </div>
 
             <div className="my-12">
               <h4>Follow Us</h4>
@@ -65,13 +61,9 @@ const HomeBanner = () => {
           </div>
           <div
             className="lg:w-1/2 lg:px-4 md:w-1/2 md:px-4"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
+            data-aos="fade-up"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
           >
             <img
               className="w-full h-full animateimg"

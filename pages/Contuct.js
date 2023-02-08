@@ -16,13 +16,10 @@ const Contuct = () => {
     }
     return (
       <div
+        id="contact"
         data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
-        data-aos-once="false"
         className="lg:w-4/5 lg:mx-auto py-20 "
       >
         <div className="bg-slate-800 rounded-md p-8 lg:p-20 lg:mx-0 mx-6 ">
@@ -52,12 +49,6 @@ const Contuct = () => {
                     <FaTelegramPlane className="w-10 h-10 p-2 border m-2 rounded-full"></FaTelegramPlane>
                   </div>
                   <p>Email: services.evotech@gmail.com</p>
-                </li>
-                <li className="mt-4 flex justify-start items-center">
-                  <div>
-                    <FaGlobeAmericas className="w-10 h-10 p-2 border m-2 rounded-full"></FaGlobeAmericas>
-                  </div>
-                  <p>Website: evotech.live</p>
                 </li>
               </ul>
             </div>
@@ -108,7 +99,7 @@ const Contuct = () => {
                       rows="20"
                     ></textarea>
                   </div>
-                  <button className="btn btn-success px-6 text-white mt-6">
+                  <button className="btn  px-6 text-white mt-6">
                     Send Message
                   </button>
                 </form>

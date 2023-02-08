@@ -1,86 +1,61 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 
 const HelpmeDecide = () => {
   return (
-    <div className=" py-[80px] lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto px-6 w-full flex lg:flex-row md:flex-row flex-col justify-between items-center mt-12">
-      <div
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        className="lg:w-1/2 md:w-1/2 w-full text-slate-300 lg:pr-16"
-      >
-        <h3 className="text-xl border-b-2 border-purple-400 inline-block">
-          Evotech- Welcome to evotech
+    <div
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      className="desktop:w-4/5 desktop:mx-auto laptop:w-4/5 laptop:mx-auto tablet:w-4/5 tablet:mx-auto flex desktop:flex-row laptop:flex-row tablet:flex-row flex-col justify-between items-center pt-[80px] px-2"
+    >
+      <div className="desktop:w-1/2 laptop:w-1/2 tablet:w-1/2 w-full ">
+        <h3 className="text-slate-400">why choose us</h3>
+        <h3 className="text-2xl text-slate-300 mt-3">
+          Outstanding <br /> Digital service time
         </h3>
-        <h3 className="text-3xl my-5">
-          Evotech Is Your Trusted <br className="lg:flex hidden" /> Source In IT
-          Services And Support
-        </h3>
-        <p className="mb-5">
-          Evotech is a privately owned IT Support and IT Services business
-          formed in 2022.Today we&apos;re proud to boast a strong team of IT
-          engineers who thrive on rolling up their sleeves and solving your IT
-          problems and meeting your business needs.
+        <p className="text-sm text-slate-300 mt-3">
+          Choose us for your web development needs and experience the following
+          benefits
         </p>
 
-        <ul>
-          <li className="flex justify-start items-start">
-            {" "}
-            <FaCheck className="mr-2 text-green-400"></FaCheck>
-            <span>We are committed to providing quality IT Services</span>
-          </li>
-          <li className="flex justify-start items-start">
-            {" "}
-            <FaCheck className="mr-2 text-green-400"></FaCheck>
+        <ul className="text-slate-300 mt-3">
+          <li className="flex justify-start items-start my-2 text-sm">
+            <span className="">
+              {" "}
+              <FaCheckCircle className="m-2 fill-[#7D6EEF] text-2xl"></FaCheckCircle>
+            </span>
             <span>
-              Our benefits are endless for local IT Companies & Startups
+              Our team of experienced web developers has a proven track record
+              of delivering high-quality, innovative web solutions.
             </span>
           </li>
-          <li className="flex justify-start items-start">
-            {" "}
-            <FaCheck className="mr-2 text-green-400"></FaCheck>
+          <li className="flex justify-start items-start my-2 text-sm">
+            <span className="">
+              {" "}
+              <FaCheckCircle className="m-2 fill-[#F58C01] text-2xl"></FaCheckCircle>
+            </span>
             <span>
-              Really know the true needs and expectations of customers
+              Customized Solutions: We listen to your unique needs and provide
+              customized web development solutions to meet your specific
+              requirements.
             </span>
           </li>
-          <li className="flex justify-start items-start">
-            {" "}
-            <FaCheck className="mr-2 text-green-400"></FaCheck>
-            <span>Talented & experienced management solutions for IT</span>
-          </li>
-          <li className="flex justify-start items-start">
-            {" "}
-            <FaCheck className="mr-2 text-green-400"></FaCheck>
+          <li className="flex justify-start items-start my-2 text-sm">
+            <span className="">
+              {" "}
+              <FaCheckCircle className="m-2 fill-[#41DC8B] text-2xl"></FaCheckCircle>
+            </span>
             <span>
-              Processes of achieving the excellence and continue improvements
+              Affordable Pricing: We offer competitive pricing without
+              sacrificing quality, ensuring you receive the best value for your
+              investment.
             </span>
           </li>
         </ul>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        className="lg:w-1/2 md:w-1/2 w-full  lg:mt-0 md:mt-0 mt-12"
-      >
-        <iframe
-          className="w-[100%] rounded mr-4"
-          height={400}
-          src="https://www.youtube.com/embed/EIIkxSvNU_s"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
+      <div className="desktop:w-1/2 laptop:w-1/2 tablet:w-1/2 w-full">
+        <img className="w-full h-full" src="uniclasshome.png" alt="" />
       </div>
     </div>
   );
