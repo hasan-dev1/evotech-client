@@ -100,8 +100,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -154,94 +153,104 @@ animation: rotate 2s infinite;
   100%{transform: rotate(360deg);}
 } */
 
-.bgimg{
+.bgimg {
   background-image: url("https://images.pexels.com/photos/8728560/pexels-photo-8728560.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 70vh;
 }
-.shapeimground{
-  border-radius: 10% 25% 50% 10% / 0% 25% 55% 0% ;
+.shapeimground {
+  border-radius: 10% 25% 50% 10% / 0% 25% 55% 0%;
 }
 
-.splide__slide{
+.splide__slide {
   position: relative;
 }
-.splide__arrow{
+.splide__arrow {
   position: absolute;
   background: #ef05e8 !important;
 }
-.splide__arrow svg{
+.splide__arrow svg {
   fill: white;
 }
-.splide__arrow--prev{
+.splide__arrow--prev {
   left: 43%;
   top: 90%;
 }
-.splide__arrow--next{
+.splide__arrow--next {
   left: 51%;
   top: 90%;
 }
-.splidearrowtwo .splide__arrow--prev{
+.splidearrowtwo .splide__arrow--prev {
   left: 15%;
   transform: translateY(-50%);
   top: 50%;
 }
-.splidearrowtwo .splide__arrow--next{
+.splidearrowtwo .splide__arrow--next {
   left: 83%;
   transform: translateY(-50%);
-  top: 50%; 
+  top: 50%;
 }
 
-.getintouchform input[type=text]{
+.getintouchform input[type="text"] {
   border: 0;
   border-bottom: 2px solid rgb(189, 186, 186);
   outline: none;
 }
-.getintouchform input[type=text]:focus {
+.getintouchform input[type="text"]:focus {
   border-bottom: 2px solid rgb(22, 248, 22);
 }
-.getintouchform input[type=email]{
+.getintouchform input[type="email"] {
   border: 0;
   border-bottom: 2px solid rgb(189, 186, 186);
   outline: none;
 }
-.getintouchform input[type=email]:focus {
+.getintouchform input[type="email"]:focus {
   border-bottom: 2px solid rgb(22, 248, 22);
 }
 
-
-.getintouchform #textaraeheight{
+.getintouchform #textaraeheight {
   height: 96px;
 }
-.getintouchform textarea{
+.getintouchform textarea {
   border: 0;
   border-bottom: 2px solid rgb(189, 186, 186);
   outline: none;
-
 }
-.getintouchform textarea:focus{
+.getintouchform textarea:focus {
   border-bottom: 2px solid rgb(22, 248, 22);
-
 }
 
-.glassdesign{
-background: rgba(255, 255, 255, 0.2);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-
+.glassdesign {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.nametext{
+.nametext {
   visibility: hidden;
   opacity: 0;
   /* height: 0; */
   margin-bottom: -30px;
   transition: all linear 0.3s;
-
 }
-.hoverimg:hover .nametext{
+.hoverimg:hover .nametext {
   visibility: visible;
   opacity: 1;
   margin-bottom: 0px;
   /* height: 50px; */
+}
+
+.bgcontact {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.footerbg {
+  background: rgba(173, 184, 255, 0.233);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }

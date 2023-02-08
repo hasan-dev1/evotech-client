@@ -20,13 +20,13 @@ const Contuct = () => {
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
-        className="lg:w-4/5 lg:mx-auto py-20 "
+        className="desktop:w-3/5 laptop:w-4/5 lg:mx-auto py-20 "
       >
-        <div className="bg-slate-800 rounded-md p-8 lg:p-20 lg:mx-0 mx-6 ">
+        <div className="bgcontact rounded-md p-6 lg:mx-0 mx-6 ">
           <div className="flex lg:flex-row md:flex-row flex-col justify-center items-start ">
             <div className="lg:w-[400px] w-full lg:rounded-l pr-6">
-              <h3 className="text-3xl pb-6 ">Let&quot;s get in touch</h3>
-              <p className="lg:pt-12 md:pt-12">
+              <h3 className="text-3xl pb-3 ">Let&quot;s get in touch</h3>
+              <p className="lg:pt-6 md:pt-6">
                 We&quot;re Open for any suggetions or just to have a chat
               </p>
               <ul>
@@ -52,16 +52,14 @@ const Contuct = () => {
                 </li>
               </ul>
             </div>
-            <div className=" lg:w-2/4 w-full   rounded-md px-3">
-              <h3 className="text-3xl lg:pt-0 md:pt-0 pt-12 ">
-                Send a message
-              </h3>
+            <div className=" lg:w-2/4 w-full  rounded-md px-3">
+              <h3 className="text-3xl lg:pt-0 md:pt-0 pt-6 ">Send a message</h3>
               <div className="getintouchform">
                 <form
-                  className="lg:pt-12 md:pt-12"
+                  className="lg:pt-6 md:pt-6"
                   onSubmit={handlecontuctform}
                 >
-                  <div className="pt-6">
+                  <div className="pt-3">
                     <p className="mb-[2px]">Name</p>
                     <input
                       name="username"
@@ -70,7 +68,7 @@ const Contuct = () => {
                       className="input rounded-none w-full bg-slate-500 text-white"
                     />
                   </div>
-                  <div className="pt-6">
+                  <div className="pt-3">
                     <p className="mb-[2px]">Email</p>
                     <input
                       name="email"
@@ -79,7 +77,7 @@ const Contuct = () => {
                       className="input rounded-none w-full bg-slate-500 text-white"
                     />
                   </div>
-                  <div className="pt-6">
+                  <div className="pt-3">
                     <p className="mb-[2px]">Subject</p>
                     <input
                       name="subject"
@@ -88,7 +86,7 @@ const Contuct = () => {
                       className="input rounded-none w-full bg-slate-500 text-white"
                     />
                   </div>
-                  <div className="pt-6">
+                  <div className="pt-3">
                     <p className="mb-[2px]">Message</p>
                     <textarea
                       name="message"

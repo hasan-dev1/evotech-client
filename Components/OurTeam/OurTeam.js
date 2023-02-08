@@ -17,7 +17,7 @@ const OurTeam = () => {
         </p>
       </div>
       <div className="grid desktop:grid-cols-3 laptop:grid-cols-3 tablet:grid-cols-2 grid-cols-1 gap-6">
-        <div className="p-3 rounded-md desktop:h-[500px] h-[400px] bg-slate-600 text-slate-400 relative hoverimg">
+        <div className="p-3 rounded-md desktop:h-[500px] h-[400px] bgcontact text-slate-400 relative hoverimg">
           <img
             className="w-full h-full rounded-md  "
             src="https://images.pexels.com/photos/3585089/pexels-photo-3585089.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -34,7 +34,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <div className="p-3 rounded-md desktop:h-[500px] h-[400px] bg-slate-600 text-slate-400 relative hoverimg ">
+        <div className="p-3 rounded-md desktop:h-[500px] h-[400px] bgcontact text-slate-400 relative hoverimg ">
           <img
             className="w-full h-full rounded-md  "
             src="https://images.pexels.com/photos/3585089/pexels-photo-3585089.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -51,7 +51,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <div className="p-3 rounded-md desktop:h-[500px] h-[400px] bg-slate-600 text-slate-400 relative hoverimg">
+        <div className="p-3 rounded-md desktop:h-[500px] h-[400px] bgcontact text-slate-400 relative hoverimg">
           <img
             className="w-full h-full rounded-md "
             src="https://images.pexels.com/photos/3585089/pexels-photo-3585089.jpeg?auto=compress&cs=tinysrgb&w=1600"
