@@ -14,7 +14,7 @@ const Footer = () => {
               alt=""
             />
             <p>
-              ACME Industries Ltd.
+              The Evotech
               <br />
               Providing reliable tech since 1992
             </p>
